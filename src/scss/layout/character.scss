@@ -1,0 +1,93 @@
+.characters{
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap:10px
+
+}
+
+.box{
+  width: 30%;
+  background-color: #1f2937;
+  border-radius:4px;
+  box-shadow: 4px 5px #d9e5d6;
+  display:flex;
+
+  img{
+    width: 50%;
+  }
+  .character{
+    width: 100%;
+    margin:10px;
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+  }
+  .name {
+    font-family: Shlop;
+    font-size: 40px;
+    color:#82bf45;
+  }
+  .specie {
+    text-align: center;
+    padding: 5px;
+    background-color:#364150;
+    color:#fff;
+    border: radius 4px;
+    text-transform: uppercase;
+    font-size: 19px;
+    margin: 3px 0;
+  }
+  .status {
+    text-align: center;
+    color: #fff;
+    padding:4px;
+    background-color:#364150;
+    border: radius 4px;;
+    font-size:12px;
+    text-transform: uppercase;
+    margin: 3px 0;
+  }
+
+}
+
+.group-button {
+  margin:2rem 0;
+  width:100%;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+button {
+  padding: .375rem .75rem;
+  border-radius: .25rem;
+  background-color: #82bf45;
+  color: #fff;
+  transition: background-color .15s ease-in-out;
+  border: none;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+button:hover, button:focus {
+  background-color: #82bf45;
+}
+
+button:active {
+  background-color: #82bf45;
+}
+
+@media screen and ( max-width: 860px ){
+  .container{
+    width: 80%
+  }
+  .box{
+      width: 100%
+    }
+
+}
+
+
